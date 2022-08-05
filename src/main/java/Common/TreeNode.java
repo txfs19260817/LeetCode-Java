@@ -2,6 +2,7 @@ package Common;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class TreeNode {
     public int val;
@@ -69,5 +70,21 @@ public class TreeNode {
                 return false;
             }
         }
+    }
+
+    public static TreeNode findByValue(TreeNode root, int target) {
+        Stack<TreeNode> stack = new Stack<>();
+        while (!stack.empty() || root != null) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            if (root.val == target) {
+                return root;
+            }
+            root = root.right;
+        }
+        return null;
     }
 }
