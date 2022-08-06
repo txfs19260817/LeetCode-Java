@@ -1,4 +1,4 @@
-package Q0110_BalancedBinaryTree;
+package Q0104_MaximumDepthofBinaryTree;
 
 import Common.TreeNode;
 import org.testng.annotations.BeforeMethod;
@@ -19,15 +19,15 @@ public class SolutionTest {
     @DataProvider(name = "examples")
     public Object[][] data() {
         return new Object[][]{
-                new Object[]{new Integer[]{3, 9, 20, null, null, 15, 7}, true},
-                new Object[]{new Integer[]{1, 2, 2, 3, 3, null, null, 4, 4}, false},
-                new Object[]{new Integer[]{}, true},
+                new Object[]{new Integer[]{3, 9, 20, null, null, 15, 7}, 3},
+                new Object[]{new Integer[]{1, null, 2}, 2},
+                new Object[]{new Integer[]{}, 0},
         };
     }
 
     @Test(dataProvider = "examples")
-    public void testIsBalanced(Integer[] rootArray, boolean expect) {
-        boolean actual = solution.isBalanced(TreeNode.fromArray(rootArray));
+    public void testMaxDepth(Integer[] rootArray, int expect) {
+        var actual = solution.maxDepth(TreeNode.fromArray(rootArray));
         assertEquals(expect, actual);
     }
 }

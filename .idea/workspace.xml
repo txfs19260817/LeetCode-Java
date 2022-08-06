@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="70,169,217,278,383">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0409_LongestPalindrome/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0409_LongestPalindrome/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="409">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0104_MaximumDepthofBinaryTree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0104_MaximumDepthofBinaryTree/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Q0110_BalancedBinaryTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Q0110_BalancedBinaryTree/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +59,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Q0104_MaximumDepthofBinaryTree" />
       <recent name="Q0409_LongestPalindrome" />
       <recent name="Q0278_FirstBadVersion" />
       <recent name="Q0217_ContainsDuplicate" />
       <recent name="Q0169_MajorityElement" />
-      <recent name="Q0383_RansomNote" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SolutionTest (5)">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="SolutionTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
@@ -88,12 +88,12 @@
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0383_RansomNote.*" />
+          <option name="PATTERN" value="Q0104_MaximumDepthofBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0383_RansomNote" />
-      <option name="MAIN_CLASS_NAME" value="Q0383_RansomNote.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0104_MaximumDepthofBinaryTree" />
+      <option name="MAIN_CLASS_NAME" value="Q0104_MaximumDepthofBinaryTree.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -101,16 +101,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0217_ContainsDuplicate.*" />
+          <option name="PATTERN" value="Q0110_BalancedBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0217_ContainsDuplicate" />
-      <option name="MAIN_CLASS_NAME" value="Q0217_ContainsDuplicate.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0110_BalancedBinaryTree" />
+      <option name="MAIN_CLASS_NAME" value="Q0110_BalancedBinaryTree.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -135,17 +135,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Q0169_MajorityElement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Q0169_MajorityElement" />
-      <option name="MAIN_CLASS_NAME" value="Q0169_MajorityElement.SolutionTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.SolutionTest (3)" />
+        <item itemvalue="TestNG.SolutionTest (2)" />
         <item itemvalue="TestNG.SolutionTest (5)" />
         <item itemvalue="TestNG.SolutionTest (1)" />
-        <item itemvalue="TestNG.SolutionTest (4)" />
-        <item itemvalue="TestNG.SolutionTest" />
-        <item itemvalue="TestNG.SolutionTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +168,7 @@
       <workItem from="1659478875349" duration="879000" />
       <workItem from="1659540550233" duration="12645000" />
       <workItem from="1659636611432" duration="8803000" />
-      <workItem from="1659705242472" duration="12534000" />
+      <workItem from="1659705242472" duration="12883000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,20">
       <created>1659547825322</created>
@@ -240,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659758753830</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="409">
+      <created>1659759872178</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659759872178</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +265,8 @@
     <MESSAGE value="Add SLF4J" />
     <MESSAGE value="94,102,141,235,236" />
     <MESSAGE value="70,169,217,278,383" />
-    <option name="LAST_COMMIT_MESSAGE" value="70,169,217,278,383" />
+    <MESSAGE value="409" />
+    <option name="LAST_COMMIT_MESSAGE" value="409" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
