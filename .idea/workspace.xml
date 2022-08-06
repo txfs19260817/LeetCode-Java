@@ -4,21 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="Add SLF4J">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0094_BinaryTreeInorderTraversal/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0102_BinaryTreeLevelOrderTraversal/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0141_LinkedListCycle/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0235_LowestCommonAncestorofaBinarySearchTree/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0236_LowestCommonAncestorofaBinaryTree/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0094_BinaryTreeInorderTraversal/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0102_BinaryTreeLevelOrderTraversal/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0141_LinkedListCycle/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0235_LowestCommonAncestorofaBinarySearchTree/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0236_LowestCommonAncestorofaBinaryTree/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="94,102,141,235,236">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0070_ClimbingStairs/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0169_MajorityElement/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0217_ContainsDuplicate/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0232_ImplementQueueusingStacks/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0278_FirstBadVersion/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0383_RansomNote/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0070_ClimbingStairs/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0169_MajorityElement/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0217_ContainsDuplicate/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0232_ImplementQueueusingStacks/MyQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0278_FirstBadVersion/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0383_RansomNote/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Common/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Common/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Common/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Common/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +69,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Q0141_LinkedListCycle" />
-      <recent name="Q0236_LowestCommonAncestorofaBinaryTree" />
-      <recent name="Q0094_BinaryTreeInorderTraversal" />
-      <recent name="Q0102_BinaryTreeLevelOrderTraversal" />
-      <recent name="Q0235_LowestCommonAncestorofaBinarySearchTree" />
+      <recent name="Q0278_FirstBadVersion" />
+      <recent name="Q0217_ContainsDuplicate" />
+      <recent name="Q0169_MajorityElement" />
+      <recent name="Q0383_RansomNote" />
+      <recent name="Q0070_ClimbingStairs" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.SolutionTest (1)">
@@ -82,12 +81,12 @@
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0141_LinkedListCycle.*" />
+          <option name="PATTERN" value="Q0278_FirstBadVersion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0141_LinkedListCycle" />
-      <option name="MAIN_CLASS_NAME" value="Q0141_LinkedListCycle.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0278_FirstBadVersion" />
+      <option name="MAIN_CLASS_NAME" value="Q0278_FirstBadVersion.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -99,12 +98,29 @@
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0235_LowestCommonAncestorofaBinarySearchTree.*" />
+          <option name="PATTERN" value="Q0383_RansomNote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0235_LowestCommonAncestorofaBinarySearchTree" />
-      <option name="MAIN_CLASS_NAME" value="Q0235_LowestCommonAncestorofaBinarySearchTree.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0383_RansomNote" />
+      <option name="MAIN_CLASS_NAME" value="Q0383_RansomNote.SolutionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q0070_ClimbingStairs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Q0070_ClimbingStairs" />
+      <option name="MAIN_CLASS_NAME" value="Q0070_ClimbingStairs.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -116,12 +132,12 @@
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0094_BinaryTreeInorderTraversal.*" />
+          <option name="PATTERN" value="Q0217_ContainsDuplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0094_BinaryTreeInorderTraversal" />
-      <option name="MAIN_CLASS_NAME" value="Q0094_BinaryTreeInorderTraversal.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0217_ContainsDuplicate" />
+      <option name="MAIN_CLASS_NAME" value="Q0217_ContainsDuplicate.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -133,23 +149,13 @@
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0236_LowestCommonAncestorofaBinaryTree.*" />
+          <option name="PATTERN" value="Q0169_MajorityElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0236_LowestCommonAncestorofaBinaryTree" />
-      <option name="MAIN_CLASS_NAME" value="Q0236_LowestCommonAncestorofaBinaryTree.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0169_MajorityElement" />
+      <option name="MAIN_CLASS_NAME" value="Q0169_MajorityElement.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode-Java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,10 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.SolutionTest (1)" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.SolutionTest (4)" />
         <item itemvalue="TestNG.SolutionTest" />
         <item itemvalue="TestNG.SolutionTest (2)" />
-        <item itemvalue="TestNG.SolutionTest (4)" />
+        <item itemvalue="TestNG.SolutionTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +185,7 @@
       <workItem from="1659478875349" duration="879000" />
       <workItem from="1659540550233" duration="12645000" />
       <workItem from="1659636611432" duration="8803000" />
-      <workItem from="1659705242472" duration="4959000" />
+      <workItem from="1659705242472" duration="11427000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,20">
       <created>1659547825322</created>
@@ -230,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659676415081</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="94,102,141,235,236">
+      <created>1659711189443</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659711189443</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,9 +264,15 @@
     <MESSAGE value="1,2,20" />
     <MESSAGE value="init" />
     <MESSAGE value="Add SLF4J" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SLF4J" />
+    <MESSAGE value="94,102,141,235,236" />
+    <option name="LAST_COMMIT_MESSAGE" value="94,102,141,235,236" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode_Java$MyQueueTest.ic" NAME="MyQueueTest Coverage Results" MODIFIED="1659712291242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Q0232_ImplementQueueusingStacks.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/LeetCode_Java$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1659585313196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/LeetCode_Java$SolutionTest__1_.ic" NAME="SolutionTest (1) Coverage Results" MODIFIED="1659541577426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Q0002_AddTwoNumbers.*</FILTER>
