@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="11,67,230,543,876">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0015_3Sum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0015_3Sum/SolutionTest.java" afterDir="false" />
+    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="15">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0003_LongestSubstringWithoutRepeatingCharacters/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0057_InsertInterval/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0542_01Matrix/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0973_KClosestPointstoOrigin/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0003_LongestSubstringWithoutRepeatingCharacters/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0057_InsertInterval/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0542_01Matrix/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0973_KClosestPointstoOrigin/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,24 +65,41 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Q0973_KClosestPointstoOrigin" />
+      <recent name="Q0542_01Matrix" />
+      <recent name="Q0003_LongestSubstringWithoutRepeatingCharacters" />
+      <recent name="Q0057_InsertInterval" />
       <recent name="Q0015_3Sum" />
-      <recent name="Q0230_KthSmallestElementinaBST" />
-      <recent name="Q0011_ContainerWithMostWater" />
-      <recent name="Q0876_MiddleoftheLinkedList" />
-      <recent name="Q0543_DiameterofBinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SolutionTest">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="SolutionTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q0057_InsertInterval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Q0057_InsertInterval" />
+      <option name="MAIN_CLASS_NAME" value="Q0057_InsertInterval.SolutionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0011_ContainerWithMostWater.*" />
+          <option name="PATTERN" value="Q0003_LongestSubstringWithoutRepeatingCharacters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0011_ContainerWithMostWater" />
-      <option name="MAIN_CLASS_NAME" value="Q0011_ContainerWithMostWater.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0003_LongestSubstringWithoutRepeatingCharacters" />
+      <option name="MAIN_CLASS_NAME" value="Q0003_LongestSubstringWithoutRepeatingCharacters.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -88,12 +111,12 @@
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0230_KthSmallestElementinaBST.*" />
+          <option name="PATTERN" value="Q0542_01Matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0230_KthSmallestElementinaBST" />
-      <option name="MAIN_CLASS_NAME" value="Q0230_KthSmallestElementinaBST.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0542_01Matrix" />
+      <option name="MAIN_CLASS_NAME" value="Q0542_01Matrix.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -105,29 +128,12 @@
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0876_MiddleoftheLinkedList.*" />
+          <option name="PATTERN" value="Q0973_KClosestPointstoOrigin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0876_MiddleoftheLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="Q0876_MiddleoftheLinkedList.SolutionTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Q0015_3Sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Q0015_3Sum" />
-      <option name="MAIN_CLASS_NAME" value="Q0015_3Sum.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0973_KClosestPointstoOrigin" />
+      <option name="MAIN_CLASS_NAME" value="Q0973_KClosestPointstoOrigin.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -147,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SolutionTest" />
         <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.SolutionTest (4)" />
         <item itemvalue="TestNG.SolutionTest (3)" />
         <item itemvalue="TestNG.SolutionTest (2)" />
+        <item itemvalue="TestNG.SolutionTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +176,8 @@
       <workItem from="1659636611432" duration="8803000" />
       <workItem from="1659705242472" duration="12987000" />
       <workItem from="1659803782817" duration="5234000" />
-      <workItem from="1659903009686" duration="1283000" />
+      <workItem from="1659903009686" duration="2622000" />
+      <workItem from="1659970091870" duration="9729000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,20">
       <created>1659547825322</created>
@@ -256,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659815494186</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="15">
+      <created>1659905159093</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659905159093</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +298,8 @@
     <MESSAGE value="409" />
     <MESSAGE value="104" />
     <MESSAGE value="11,67,230,543,876" />
-    <option name="LAST_COMMIT_MESSAGE" value="11,67,230,543,876" />
+    <MESSAGE value="15" />
+    <option name="LAST_COMMIT_MESSAGE" value="15" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -296,8 +311,8 @@
     <SUITE FILE_PATH="coverage/LeetCode_Java$SolutionTest__1_.ic" NAME="SolutionTest (1) Coverage Results" MODIFIED="1659541577426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Q0002_AddTwoNumbers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/LeetCode_Java$SolutionTest.ic" NAME="SolutionTest Coverage Results" MODIFIED="1659541732945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Q0001_TwoSum.*</FILTER>
+    <SUITE FILE_PATH="coverage/LeetCode_Java$SolutionTest.ic" NAME="SolutionTest Coverage Results" MODIFIED="1659904377297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Q0015_3Sum.*</FILTER>
     </SUITE>
   </component>
 </project>
