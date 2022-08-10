@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="3,57,542,973">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0133_CloneGraph/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0150_EvaluateReversePolishNotation/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0133_CloneGraph/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0150_EvaluateReversePolishNotation/SolutionTest.java" afterDir="false" />
+    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="133, 150">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0224_BasicCalculator/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0227_BasicCalculatorII/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0772_BasicCalculatorIII/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0224_BasicCalculator/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0227_BasicCalculatorII/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0772_BasicCalculatorIII/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +55,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editing.templates"
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -61,14 +63,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Q0772_BasicCalculatorIII" />
+      <recent name="Q0224_BasicCalculator" />
+      <recent name="Q0227_BasicCalculatorII" />
       <recent name="Q0133_CloneGraph" />
       <recent name="Q0150_EvaluateReversePolishNotation" />
-      <recent name="Q0973_KClosestPointstoOrigin" />
-      <recent name="Q0542_01Matrix" />
-      <recent name="Q0003_LongestSubstringWithoutRepeatingCharacters" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SolutionTest (1)">
+  <component name="RunManager" selected="TestNG.SolutionTest (4)">
     <configuration name="SolutionTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
@@ -86,16 +88,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q0227_BasicCalculatorII.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Q0227_BasicCalculatorII" />
+      <option name="MAIN_CLASS_NAME" value="Q0227_BasicCalculatorII.SolutionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0542_01Matrix.*" />
+          <option name="PATTERN" value="Q0224_BasicCalculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0542_01Matrix" />
-      <option name="MAIN_CLASS_NAME" value="Q0542_01Matrix.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0224_BasicCalculator" />
+      <option name="MAIN_CLASS_NAME" value="Q0224_BasicCalculator.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -107,12 +126,12 @@
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0973_KClosestPointstoOrigin.*" />
+          <option name="PATTERN" value="Q0772_BasicCalculatorIII.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0973_KClosestPointstoOrigin" />
-      <option name="MAIN_CLASS_NAME" value="Q0973_KClosestPointstoOrigin.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0772_BasicCalculatorIII" />
+      <option name="MAIN_CLASS_NAME" value="Q0772_BasicCalculatorIII.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -120,27 +139,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testCalculate" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0150_EvaluateReversePolishNotation.*" />
+          <option name="PATTERN" value="Q0227_BasicCalculatorII.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0150_EvaluateReversePolishNotation" />
-      <option name="MAIN_CLASS_NAME" value="Q0150_EvaluateReversePolishNotation.SolutionTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode-Java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PACKAGE_NAME" value="Q0227_BasicCalculatorII" />
+      <option name="MAIN_CLASS_NAME" value="Q0227_BasicCalculatorII.SolutionTest" />
+      <option name="METHOD_NAME" value="testCalculate" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SolutionTest (1)" />
-        <item itemvalue="TestNG.SolutionTest" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.SolutionTest (4)" />
         <item itemvalue="TestNG.SolutionTest (3)" />
+        <item itemvalue="TestNG.SolutionTest (2)" />
+        <item itemvalue="TestNG.SolutionTest.testCalculate" />
+        <item itemvalue="TestNG.SolutionTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +184,10 @@
       <workItem from="1659803782817" duration="5234000" />
       <workItem from="1659903009686" duration="2622000" />
       <workItem from="1659970091870" duration="10453000" />
-      <workItem from="1660061941165" duration="5685000" />
+      <workItem from="1660061941165" duration="7091000" />
+      <workItem from="1660081692237" duration="153000" />
+      <workItem from="1660082569631" duration="701000" />
+      <workItem from="1660149993000" duration="7682000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,20">
       <created>1659547825322</created>
@@ -274,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659987880118</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="133, 150">
+      <created>1660068775592</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660068775592</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,9 +324,14 @@
     <MESSAGE value="11,67,230,543,876" />
     <MESSAGE value="15" />
     <MESSAGE value="3,57,542,973" />
-    <option name="LAST_COMMIT_MESSAGE" value="3,57,542,973" />
+    <MESSAGE value="133, 150" />
+    <option name="LAST_COMMIT_MESSAGE" value="133, 150" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_Java$MyQueueTest.ic" NAME="MyQueueTest Coverage Results" MODIFIED="1659712291242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
