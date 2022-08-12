@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="208">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0199_BinaryTreeRightSideView/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0238_ProductofArrayExceptSelf/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0199_BinaryTreeRightSideView/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0238_ProductofArrayExceptSelf/SolutionTest.java" afterDir="false" />
+    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="199, 238">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0042_TrappingRainWater/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0098_ValidateBinarySearchTree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0207_CourseSchedule/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0042_TrappingRainWater/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0098_ValidateBinarySearchTree/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0207_CourseSchedule/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_8_51_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_8_51__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +65,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Q0042_TrappingRainWater" />
+      <recent name="Q0098_ValidateBinarySearchTree" />
+      <recent name="Q0207_CourseSchedule" />
       <recent name="Q0199_BinaryTreeRightSideView" />
       <recent name="Q0238_ProductofArrayExceptSelf" />
-      <recent name="Q0208_ImplementTrie" />
-      <recent name="Q0772_BasicCalculatorIII" />
-      <recent name="Q0224_BasicCalculator" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SolutionTest (1)">
+  <component name="RunManager" selected="TestNG.SolutionTest (4)">
     <configuration name="SolutionTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
@@ -86,16 +90,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q0207_CourseSchedule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Q0207_CourseSchedule" />
+      <option name="MAIN_CLASS_NAME" value="Q0207_CourseSchedule.SolutionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0224_BasicCalculator.*" />
+          <option name="PATTERN" value="Q0098_ValidateBinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0224_BasicCalculator" />
-      <option name="MAIN_CLASS_NAME" value="Q0224_BasicCalculator.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0098_ValidateBinarySearchTree" />
+      <option name="MAIN_CLASS_NAME" value="Q0098_ValidateBinarySearchTree.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -107,12 +128,12 @@
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0772_BasicCalculatorIII.*" />
+          <option name="PATTERN" value="Q0042_TrappingRainWater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0772_BasicCalculatorIII" />
-      <option name="MAIN_CLASS_NAME" value="Q0772_BasicCalculatorIII.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0042_TrappingRainWater" />
+      <option name="MAIN_CLASS_NAME" value="Q0042_TrappingRainWater.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -137,30 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrieTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Q0208_ImplementTrie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Q0208_ImplementTrie" />
-      <option name="MAIN_CLASS_NAME" value="Q0208_ImplementTrie.TrieTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SolutionTest (1)" />
-        <item itemvalue="TestNG.SolutionTest" />
-        <item itemvalue="TestNG.TrieTest" />
         <item itemvalue="TestNG.SolutionTest (4)" />
         <item itemvalue="TestNG.SolutionTest (3)" />
+        <item itemvalue="TestNG.SolutionTest (2)" />
+        <item itemvalue="TestNG.SolutionTest (1)" />
+        <item itemvalue="TestNG.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +189,9 @@
       <workItem from="1660081692237" duration="153000" />
       <workItem from="1660082569631" duration="701000" />
       <workItem from="1660149993000" duration="8301000" />
-      <workItem from="1660234965211" duration="2890000" />
+      <workItem from="1660234965211" duration="3295000" />
+      <workItem from="1660238329578" duration="599000" />
+      <workItem from="1660319539708" duration="6417000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,20">
       <created>1659547825322</created>
@@ -306,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660236293440</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="199, 238">
+      <created>1660238312336</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1660238312336</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +352,8 @@
     <MESSAGE value="133, 150" />
     <MESSAGE value="224, 227, 772" />
     <MESSAGE value="208" />
-    <option name="LAST_COMMIT_MESSAGE" value="208" />
+    <MESSAGE value="199, 238" />
+    <option name="LAST_COMMIT_MESSAGE" value="199, 238" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
