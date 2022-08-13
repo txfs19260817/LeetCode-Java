@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="199, 238">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0042_TrappingRainWater/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0098_ValidateBinarySearchTree/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0207_CourseSchedule/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0042_TrappingRainWater/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0098_ValidateBinarySearchTree/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0207_CourseSchedule/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_8_51_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_8_51__Changes_.xml" beforeDir="false" />
+    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="42,98,207">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0005_LongestPalindromicSubstring/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0155_MinStack/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0155_MinStack/MinStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -53,11 +48,13 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/LeetCode-Java/src/main/java/Q0772_BasicCalculatorIII/Solution.java&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.deploy.options&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/Projects/LeetCode-Java/src/main/java/Q0772_BasicCalculatorIII/Solution.java&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,24 +62,24 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Q0155_MinStack" />
       <recent name="Q0042_TrappingRainWater" />
       <recent name="Q0098_ValidateBinarySearchTree" />
       <recent name="Q0207_CourseSchedule" />
       <recent name="Q0199_BinaryTreeRightSideView" />
-      <recent name="Q0238_ProductofArrayExceptSelf" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SolutionTest (4)">
-    <configuration name="SolutionTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SolutionTest">
+    <configuration name="MinStackTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0199_BinaryTreeRightSideView.*" />
+          <option name="PATTERN" value="Q0155_MinStack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0199_BinaryTreeRightSideView" />
-      <option name="MAIN_CLASS_NAME" value="Q0199_BinaryTreeRightSideView.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0155_MinStack" />
+      <option name="MAIN_CLASS_NAME" value="Q0155_MinStack.MinStackTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -145,12 +142,12 @@
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0238_ProductofArrayExceptSelf.*" />
+          <option name="PATTERN" value="Q0005_LongestPalindromicSubstring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0238_ProductofArrayExceptSelf" />
-      <option name="MAIN_CLASS_NAME" value="Q0238_ProductofArrayExceptSelf.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0005_LongestPalindromicSubstring" />
+      <option name="MAIN_CLASS_NAME" value="Q0005_LongestPalindromicSubstring.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -160,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SolutionTest" />
+        <item itemvalue="TestNG.MinStackTest" />
         <item itemvalue="TestNG.SolutionTest (4)" />
         <item itemvalue="TestNG.SolutionTest (3)" />
         <item itemvalue="TestNG.SolutionTest (2)" />
-        <item itemvalue="TestNG.SolutionTest (1)" />
-        <item itemvalue="TestNG.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +188,8 @@
       <workItem from="1660149993000" duration="8301000" />
       <workItem from="1660234965211" duration="3295000" />
       <workItem from="1660238329578" duration="599000" />
-      <workItem from="1660319539708" duration="6417000" />
+      <workItem from="1660319539708" duration="10974000" />
+      <workItem from="1660415837035" duration="1755000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,20">
       <created>1659547825322</created>
@@ -319,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660238312336</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="42,98,207">
+      <created>1660331013151</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660331013151</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +358,8 @@
     <MESSAGE value="224, 227, 772" />
     <MESSAGE value="208" />
     <MESSAGE value="199, 238" />
-    <option name="LAST_COMMIT_MESSAGE" value="199, 238" />
+    <MESSAGE value="42,98,207" />
+    <option name="LAST_COMMIT_MESSAGE" value="42,98,207" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
