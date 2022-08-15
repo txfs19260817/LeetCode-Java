@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="200">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Q0438_FindAllAnagramsinaString/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Q0438_FindAllAnagramsinaString/SolutionTest.java" afterDir="false" />
+    <list default="true" id="ebf135cc-72bc-4fe9-8b3a-7126bbb06b53" name="Changes" comment="438">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0322_CoinChange/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Q0994_RottingOranges/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0322_CoinChange/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Q0994_RottingOranges/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,31 +63,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Q0322_CoinChange" />
+      <recent name="Q0994_RottingOranges" />
       <recent name="Q0438_FindAllAnagramsinaString" />
       <recent name="Q0200_NumberofIslands" />
       <recent name="Q0005_LongestPalindromicSubstring" />
-      <recent name="Q0155_MinStack" />
-      <recent name="Q0042_TrappingRainWater" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SolutionTest (2)">
-    <configuration name="MinStackTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Q0155_MinStack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Q0155_MinStack" />
-      <option name="MAIN_CLASS_NAME" value="Q0155_MinStack.MinStackTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SolutionTest (4)">
     <configuration name="SolutionTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
@@ -120,16 +105,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q0994_RottingOranges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Q0994_RottingOranges" />
+      <option name="MAIN_CLASS_NAME" value="Q0994_RottingOranges.SolutionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LeetCode-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q0042_TrappingRainWater.*" />
+          <option name="PATTERN" value="Q0322_CoinChange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Q0042_TrappingRainWater" />
-      <option name="MAIN_CLASS_NAME" value="Q0042_TrappingRainWater.SolutionTest" />
+      <option name="PACKAGE_NAME" value="Q0322_CoinChange" />
+      <option name="MAIN_CLASS_NAME" value="Q0322_CoinChange.SolutionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -156,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SolutionTest (4)" />
+        <item itemvalue="TestNG.SolutionTest (3)" />
         <item itemvalue="TestNG.SolutionTest (2)" />
         <item itemvalue="TestNG.SolutionTest (1)" />
         <item itemvalue="TestNG.SolutionTest" />
-        <item itemvalue="TestNG.MinStackTest" />
-        <item itemvalue="TestNG.SolutionTest (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +191,8 @@
       <workItem from="1660238329578" duration="599000" />
       <workItem from="1660319539708" duration="10974000" />
       <workItem from="1660415837035" duration="2038000" />
-      <workItem from="1660491862814" duration="2347000" />
+      <workItem from="1660491862814" duration="3063000" />
+      <workItem from="1660587926542" duration="4530000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,20">
       <created>1659547825322</created>
@@ -338,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660493703801</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="438">
+      <created>1660494986644</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660494986644</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +385,8 @@
     <MESSAGE value="42,98,207" />
     <MESSAGE value="5,155" />
     <MESSAGE value="200" />
-    <option name="LAST_COMMIT_MESSAGE" value="200" />
+    <MESSAGE value="438" />
+    <option name="LAST_COMMIT_MESSAGE" value="438" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
